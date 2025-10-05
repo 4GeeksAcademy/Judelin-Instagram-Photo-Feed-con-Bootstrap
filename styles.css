@@ -1,13 +1,26 @@
-/* div{
-    border: solid black 2px;
-} */
-/* .row{
-    margin: 10px 10px 0 15px;
-
-    margin-right: 2px;
+.row{
+   margin: 10px 40px 0;
 }
-.col{
-    margin: 5px;
-    border: solid black 2px;
-} */
+.row div{
+    margin: 12px 0 12px;
+}
+
+.dropdown1 .item2{
+    justify-content: left;
+    display: flex;
+    flex-direction: column;
+    width: 33.33%;
+}
+
+.dropdown1 .dropdown-menu2{
+ 
+    display: none;
+}
+
+.dropdown1:hover .dropdown-menu2{
+    
+    display: flex;
+    background-color: bisque;
+    flex-direction: row;
+}
 
